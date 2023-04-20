@@ -19,6 +19,6 @@ public class DataAdapter extends DataPadraoUS{
         String dia=dataBR.getData().substring(0,2);
         String mes=dataBR.getData().substring(3,5);
         String data=dia+dataBR.getData().substring(2,3)+mes+dataBR.getData().substring(5);
-        this.setData(data);
+        this.setDataUS(data);
     }
 }

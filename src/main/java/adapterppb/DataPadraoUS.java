@@ -1,15 +1,13 @@
 package adapterppb;
 
-public class DataPadraoUS implements IData{
+public class DataPadraoUS{
         private String DataUS;
 
-        @Override
-        public String getData() {
+        public String getDataUS() {
             return this.DataUS;
         }
 
-        @Override
-        public void setData(String data) {
+        public void setDataUS(String data) {
             this.DataUS=data;
         }
 }

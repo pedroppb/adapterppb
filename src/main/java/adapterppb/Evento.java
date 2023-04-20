@@ -1,11 +1,11 @@
 package adapterppb;
 
-public class Data {
+public class Evento {
 
     IData data;
     DataAdapter persistencia;
 
-    public Data() {
+    public Evento() {
         data = new DataPadraoBR();
         persistencia = new DataAdapter(data);
     }
@@ -21,6 +21,6 @@ public class Data {
 
     // Método apenas para mostrar que está convertendo conceito para nota através do adaptador
     public String getDatabr() {
-        return persistencia.getData();
+        return persistencia.getDataUS();
     }
 }
